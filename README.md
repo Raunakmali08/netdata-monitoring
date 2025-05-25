@@ -25,11 +25,11 @@ Run the following Docker command to start Netdata:
 docker run -d --name=netdata -p 19999:19999 --cap-add SYS_PTRACE --security-opt apparmor=unconfined netdata/netdata
 
 
-##Access the dashboard in your browser at:
+## Access the dashboard in your browser at:
   http://localhost:19999
 
 
-##🔍 What You Can Monitor
+## 🔍 What You Can Monitor
      CPU Usage
 
 RAM and Swap
@@ -43,12 +43,12 @@ Docker Containers
 System Health Alerts
 
 
-##📂 Logs
-##Inside the container, logs are located at:
+## 📂 Logs
+## Inside the container, logs are located at:
   /var/log/netdata
 
 
-##To access them:
+## To access them:
   docker exec -it netdata bash
   cd /var/log/netdata
   ls
@@ -58,19 +58,13 @@ System Health Alerts
 ---
 
 ### 📌 To Add This `README.md` File
-
-Run these commands from the project directory:
-
-```bash
-nano README.md
+       Run these commands from the project directory:
+       ```bash
+       nano README.md
 
 
 
-
-
-
-
-##✍️ Author
-##Made with ❤️ by Raunak Mali
-##🔗 GitHub
+## ✍️ Author
+## Made with ❤️ by Raunak Mali
+## 🔗 GitHub
 
